@@ -32,7 +32,7 @@ configUtil.generateConfig((err, config) => {
                 '-storage.local.memory-chunks',
 				`${+process.env.PROM_MEMORY_CHUNKS || 1048576}`,
                 '-storage.local.path',
-                `${process.env.PROM_STORAGE_PATH || '/mnt/containership/metrics/data'}`
+                `${process.env.PROM_STORAGE_PATH || '/opt/containership/metrics/data'}`
     ]);
 
     prometheus.stdout.on('data', (data) => {

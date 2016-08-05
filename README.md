@@ -22,7 +22,7 @@ sudo docker run \
 
 `PROM_GLOBAL_EVALUATION_INTERVAL` - global default interval for prometheus to evaluation rules (default:15s)
 
-`PROM_STORAGE_PATH` - default local storage path for prometheus to store metric data (default:/mnt/containership/metrics/data)
+`PROM_STORAGE_PATH` - default local storage path for prometheus to store metric data (default:/opt/containership/metrics/data)
 
 `PROM_MEMORY_CHUNKS` - The number of most recently used chunks for prometheus to keep in memory. Each chunk is 1024 bytes, so base the number of chunks on the amount of RAM provided to the container. Prometheus suggests: As a rule of thumb, you should have at least three times more RAM available than needed by the memory chunks alone. (default: 1048576, unit: chunks)
 
