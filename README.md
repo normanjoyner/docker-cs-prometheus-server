@@ -1,5 +1,8 @@
-# docker-cs-prometheus
+# docker-cs-prometheus-server
 containership promethius docker image
+
+## Build Status
+[![Build Status](https://drone.containership.io/api/badges/containership/docker-cs-prometheus-server/status.svg)](https://drone.containership.io/containership/docker-cs-prometheus-server)
 
 ## Installation
 ```
